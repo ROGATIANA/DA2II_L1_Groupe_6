@@ -35,7 +35,7 @@ Chaque membre a travaillé sur une page ou une partie du projet dans sa propre b
 - `/images` : contient les images (logo, photos, etc.)
 
 ### CSS
-- `css/global.css` : style général du site (commun à toutes les pages)
+- `global.css` : style général du site (commun à toutes les pages)
 - un fichier CSS par page (ex : `css/contact.css`, `css/index.css`...)
 
 _ _ _
@@ -43,7 +43,7 @@ _ _ _
 ## Installation
 1. Cloner lez projet
    Git clone
-   lien github++++
+   `https://github.com/ROGATIANA/DA2II_L1_Groupe_6`
 
 2. Aller dans l dossier cd bibliohub+++
 
@@ -57,8 +57,7 @@ ouvrir "indx html" dans un navigateur
 Ouvrir le naviigateur et acceder à :
 'index html' (page d'acceui)
 ou consulter le site en ligne via 
-Github Pages :
-(lien++++++)
+Github Pages : `https://github.com/ROGATIANA/DA2II_L1_Groupe_6`
 
 
 
@@ -113,7 +112,7 @@ _ Formulaire de contact
 ## Déploiement (GitHub Pages)
 Le site est déployé avec GitHub Pages.
 
- Lien du site : **(mettre ici le lien GitHub Pages)**
+ Lien du site : `https://github.com/ROGATIANA/DA2II_L1_Groupe_6`
 
 ---
 
@@ -124,4 +123,4 @@ Le site est déployé avec GitHub Pages.
  _ _ _
  
 ## Auteur/ Equipe
-Réalisé par les membres du groupe VI composés de 10 membres ( Rogatiana, Joy, Raminah, Harizo, Atovia, Jean Claude, Adolph Fiderana, Malalatiana,André, Josoa)
+Réalisé par les membres du groupe VI composés de 10 membres ( Rogatiana, Joy, Rominoh, Harizo, Atovia, Jean Claudio, Adolph Fiderana, Malalatiana,André, Josoa)
