@@ -82,8 +82,8 @@ _ Formulaire de contact
 - Jean Claude: Page Livre (`livre.html`)  
 - Adolph Fiderana : Page Contact (`contact.html`)  
 - Malalatiana : README / Documentation (`README.md`)  
-- Membre 9 : Navigation + Footer (intégration)  
-- Membre 10 : Images / Assets  
+- Josoa : Navigation + Footer (intégration)
+- André : Images / Assets  
 
 ---
 
