@@ -24,7 +24,7 @@ Chaque membre a travaillé sur une page ou une partie du projet dans sa propre b
 
 ### Pages principales
 - `index.html` : page d’accueil
-- `horaire.html' : horaires d’ouverture
+- `horaire.html` : horaires d’ouverture
 - `reglement.html` : règlement de la bibliothèque
 - `categorie.html` : catégories de livres
 - `livre.html` : page livres / liste de livres / catalogue
