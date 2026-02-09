@@ -7,6 +7,7 @@ hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
+// Fermer le menu au clic sur un lien
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
         hamburger.classList.remove('active');
@@ -14,6 +15,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+// Bouton retour en haut
 const backToTop = document.querySelector('.back-to-top');
 
 window.addEventListener('scroll', () => {
@@ -24,6 +26,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// Smooth scroll pour les ancres
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
