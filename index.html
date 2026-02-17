@@ -1,344 +1,199 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibliothèque Universitaire - Gestion</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <i class="fas fa-book"></i>
-                <span>BiblioUniv</span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#accueil" class="nav-link"><i class="fas fa-home"></i> Accueil</a></li>
-                <li><a href="#livre" class="nav-link"><i class="fas fa-book-open"></i> Livres</a></li>
-                <li><a href="#categorie" class="nav-link"><i class="fas fa-tags"></i> Catégories</a></li>
-                <li><a href="#reglement" class="nav-link"><i class="fas fa-clipboard-list"></i> Règlement</a></li>
-                <li><a href="#horaire" class="nav-link"><i class="fas fa-clock"></i> Horaires</a></li>
-                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>biblioteque</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- PAGE D'ACCUEIL -->
+
+         <section id="accueil" class="acueil">
+            <header>
+                
+                    <ul class="navlist">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#livre">Livres</a></li>
+                        <li><a href="#categorie">Catégories</a></li>
+                        <li><a href="#reglement">Règlement</a></li>
+                        <li><a href="#horaire">Horaires</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                
+            </header>
+
+                
+                    <h2>Bienvenue</h2>
+                    <p>
+                        Ce site présente l'organisation d'une bibliothèque universitaire :
+                        livres disponibles, catégories, règles et horaires.
+                    </p>
+         </section>
+
+        <!-- LIVRE -->
+
+         <section id="livre" class="livre">
+            <header>
+    <h1>Liste des livres</h1>
+</header>
+<section>
+    <table>
+        <tr>
+            <th>Titre</th>
+            <th>Auteur</th>
+            <th>Année</th>
+        </tr>
+        <tr>
+            <td>Algorithmique</td>
+            <td>T. Cormen</td>
+            <td>2015</td>
+        </tr>
+        <tr>
+            <td>Programmation C</td>
+            <td>D. Ritchie</td>
+            <td>2012</td>
+        </tr>
+        
+        <tr>
+            <td>Maitriser le HTML & CSS</td>
+            <td>J. Smith</td>
+            <td>2009</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</section>
+
+<center>
+    <p>Bibliothèque - Livres</p>
+</center>
+         </section>
+
+        <!-- CATEGORIE -->
+
+        <section id="categorie" class="categorie">
+
+            <h2>Catégories de livres</h2>
+
+            <ul>
+                <li>Informatique</li>
+                <li>Mathématiques</li>
+                <li>Physique</li>
+                <li>Électronique</li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+        </section>
 
-    <section id="accueil" class="hero">
-        <div class="hero-content">
-            <h1>Bibliothèque Universitaire</h1>
-            <p class="subtitle">L1 DA2I - Groupe 6 - Projet de Gestion</p>
-            <p class="hero-text">
-                Découvrez notre collection de livres, nos catégories, les règles d'utilisation 
-                et les horaires d'ouverture de la bibliothèque universitaire.
-            </p>
-            <a href="#livre" class="cta-button">Explorer les livres <i class="fas fa-arrow-down"></i></a>
-        </div>
-        <div class="hero-image">
-            <i class="fas fa-university"></i>
-        </div>
-    </section>
-    <section id="livre" class="section">
-        <div class="container">
-            <h2 class="section-title"><i class="fas fa-book"></i> Liste des Livres</h2>
-            <div class="table-container">
-                <table class="books-table">
-                    <thead>
-                        <tr>
-                            <th><i class="fas fa-heading"></i> Titre</th>
-                            <th><i class="fas fa-user-pen"></i> Auteur</th>
-                            <th><i class="fas fa-calendar"></i> Année</th>
-                            <th><i class="fas fa-tag"></i> Catégorie</th>
-                            <th><i class="fas fa-circle"></i> Disponibilité</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Algorithmique</td>
-                            <td>T. Cormen</td>
-                            <td>2015</td>
-                            <td>Informatique</td>
-                            <td><span class="status available">Disponible</span></td>
-                        </tr>
-                        <tr>
-                            <td>Programmation C</td>
-                            <td>D. Ritchie</td>
-                            <td>2012</td>
-                            <td>Informatique</td>
-                            <td><span class="status available">Disponible</span></td>
-                        </tr>
-                        <tr>
-                            <td>Maîtriser le HTML & CSS</td>
-                            <td>J. Smith</td>
-                            <td>2009</td>
-                            <td>Informatique</td>
-                            <td><span class="status borrowed">Emprunté</span></td>
-                        </tr>
-                        <tr>
-                            <td>Algèbre linéaire et applications</td>
-                            <td>G. Strang</td>
-                            <td>1979</td>
-                            <td>Mathématiques</td>
-                            <td><span class="status available">Disponible</span></td>
-                        </tr>
-                        <tr>
-                            <td>Concept des systèmes d'exploitation</td>
-                            <td>B. Galvin</td>
-                            <td>1987</td>
-                            <td>Informatique</td>
-                            <td><span class="status available">Disponible</span></td>
-                        </tr>
-                        <tr>
-                            <td>L'art de l'électronique</td>
-                            <td>P. Horowitz</td>
-                            <td>1980</td>
-                            <td>Électronique</td>
-                            <td><span class="status available">Disponible</span></td>
-                        </tr>
-                        <tr>
-                            <td>Mécanique Classique</td>
-                            <td>H. Goldstein</td>
-                            <td>1950</td>
-                            <td>Physique</td>
-                            <td><span class="status reserved">Réservé</span></td>
-                        </tr>
-                        <tr>
-                            <td>Premier cours de probabilité</td>
-                            <td>S. Ross</td>
-                            <td>1976</td>
-                            <td>Mathématiques</td>
-                            <td><span class="status available">Disponible</span></td>
-                        </tr>
-                        <tr>
-                            <td>Mathématiques discrètes et applications</td>
-                            <td>H. Rossen</td>
-                            <td>1988</td>
-                            <td>Mathématiques</td>
-                            <td><span class="status available">Disponible</span></td>
-                        </tr>
-                        <tr>
-                            <td>Réseau informatique</td>
-                            <td>F. Kurose</td>
-                            <td>2000</td>
-                            <td>Informatique</td>
-                            <td><span class="status borrowed">Emprunté</span></td>
-                        </tr>
-                        <tr>
-                            <td>Code propre</td>
-                            <td>C. Martin</td>
-                            <td>2008</td>
-                            <td>Informatique</td>
-                            <td><span class="status available">Disponible</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="table-info">
-                <p><i class="fas fa-info-circle"></i> Total des livres : 11 | Mis à jour : Janvier 2026</p>
-            </div>
-        </div>
-    </section>
-    <section id="categorie" class="section categories-section">
-        <div class="container">
-            <h2 class="section-title"><i class="fas fa-tags"></i> Catégories de Livres</h2>
-            <div class="categories-grid">
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                    <h3>Informatique</h3>
-                    <p>Algorithmique, programmation, réseaux, bases de données, développement web</p>
-                    <span class="book-count">5 livres</span>
-                </div>
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-calculator"></i>
-                    </div>
-                    <h3>Mathématiques</h3>
-                    <p>Algèbre, analyse, probabilités, statistiques, mathématiques discrètes</p>
-                    <span class="book-count">3 livres</span>
-                </div>
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-atom"></i>
-                    </div>
-                    <h3>Physique</h3>
-                    <p>Mécanique, électromagnétisme, physique quantique, thermodynamique</p>
-                    <span class="book-count">1 livre</span>
-                </div>
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-microchip"></i>
-                    </div>
-                    <h3>Électronique</h3>
-                    <p>Circuits, microélectronique, systèmes embarqués, automatique</p>
-                    <span class="book-count">2 livres</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="reglement" class="section rules-section">
-        <div class="container">
-            <h2 class="section-title"><i class="fas fa-clipboard-list"></i> Règlement de la Bibliothèque</h2>
-            <div class="rules-container">
-                <div class="rule-card">
-                    <div class="rule-number">1</div>
-                    <div class="rule-content">
-                        <h3>Conditions d'accès</h3>
-                        <p>Les étudiants et le personnel doivent présenter une carte de membre avant d'entrer et d'utiliser les ressources de la bibliothèque.</p>
-                    </div>
-                </div>
-                <div class="rule-card">
-                    <div class="rule-number">2</div>
-                    <div class="rule-content">
-                        <h3>Silence et comportement</h3>
-                        <p>Le bruit excessif, les discussions prolongées et tout comportement perturbant les autres usagers sont interdits.</p>
-                    </div>
-                </div>
-                <div class="rule-card">
-                    <div class="rule-number">3</div>
-                    <div class="rule-content">
-                        <h3>Utilisation des livres</h3>
-                        <p>Les livres et le matériel doivent être respectés. Il est interdit de les détériorer, de les déchirer ou de les utiliser de manière abusive.</p>
-                    </div>
-                </div>
-                <div class="rule-card">
-                    <div class="rule-number">4</div>
-                    <div class="rule-content">
-                        <h3>Emprunt des livres</h3>
-                        <p>Les livres et matériels empruntés doivent être retournés à la date prévue. Des sanctions sont prévues en cas de retard.</p>
-                    </div>
-                </div>
-                <div class="rule-card">
-                    <div class="rule-number">5</div>
-                    <div class="rule-content">
-                        <h3>Règles particulières</h3>
-                        <ul>
-                            <li><i class="fas fa-utensils"></i> Interdiction de nourriture et boissons</li>
-                            <li><i class="fas fa-phone-slash"></i> Appels téléphoniques interdits</li>
-                            <li><i class="fas fa-broom"></i> Respect de la propreté obligatoire</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- REGLEMENT -->
 
-    <section id="horaire" class="section schedule-section">
-        <div class="container">
-            <h2 class="section-title"><i class="fas fa-clock"></i> Horaires d'Ouverture</h2>
-            <div class="schedule-container">
-                <div class="schedule-card">
-                    <div class="day">Lundi - Vendredi</div>
-                    <div class="hours">08:00 - 17:00</div>
-                    <div class="note">Accès complet</div>
-                </div>
-                <div class="schedule-card">
-                    <div class="day">Samedi</div>
-                    <div class="hours">08:00 - 12:00</div>
-                    <div class="note">Service réduit</div>
-                </div>
-                <div class="schedule-card">
-                    <div class="day">Dimanche</div>
-                    <div class="hours">Fermé</div>
-                    <div class="note">Repos hebdomadaire</div>
-                </div>
-            </div>
-            <div class="schedule-info">
-                <p><i class="fas fa-exclamation-circle"></i> Fermeture exceptionnelle les jours fériés</p>
-            </div>
+        <section id="reglement" class="reglement">
+            <section>
+    <h2>Règlement intérieur</h2>
+    <ol>
+        <li>Silence obligatoire</li>
+        <li>Retour des livres sous 7 jours</li>
+        <li>Carte étudiant obligatoire</li>
+    </ol>
+</section>
+
+
+
+
+
+
+
+
+
+        </section>
+
+        <!--HORAIRE -->
+
+        <section id="horaire" class="horaire">
+            <section>
+    <h2>Horaires d'ouverture</h2>
+    <p>Lundi – Vendredi : 08h - 17h</p>
+    <p>Samedi : 08h - 12h</p>
+</section>
+
+
+
+
+
+
+
+        </section>
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="contact">
+
+
+
+
+
+
+
+        </section>
+        <center>
+        <div class="ambany">
+            <p>Projet L1 DA2I Groupe 6 - Gestion de Bibliothèque</p>
         </div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <h2 class="section-title"><i class="fas fa-envelope"></i> Contactez-nous</h2>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3>Adresse</h3>
-                            <p>Bibliothèque Universitaire<br>Campus Principal, Bâtiment A<br>12345 Ville Universitaire</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3>Téléphone</h3>
-                            <p>+261380708147</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p>bibliotheque@universite.fr</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-user-tie"></i>
-                        <div>
-                            <h3>Responsable</h3>
-                            <p>M. Zo</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <h3>Envoyez un message</h3>
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" placeholder="Votre nom" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Votre email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Votre message..." rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">
-                            <i class="fas fa-paper-plane"></i> Envoyer
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <i class="fas fa-book"></i>
-                    <span>BiblioUniv</span>
-                </div>
-                <div class="footer-info">
-                    <p>Projet L1 DA2I - Groupe 6 - Gestion de Bibliothèque Universitaire</p>
-                    <p>Année universitaire 2025-2026</p>
-                </div>
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Bibliothèque Universitaire - Tous droits réservés</p>
-            </div>
-        </div>
-    </footer>
-
-    <a href="#accueil" class="back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <script src="script.js"></script>
-</body>
+        </center>
+    </body>
 </html>
